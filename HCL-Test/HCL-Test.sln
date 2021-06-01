@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30330.147
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HCL-Test", "HCL-Test.csproj", "{02F4CD24-FA3E-49C9-8783-EDB75394D3A6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HCL-Test.tests", "..\HCL-Test.tests\HCL-Test.tests.csproj", "{563EB036-7F9D-4C8A-B7B0-CBD6B34870C1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{02F4CD24-FA3E-49C9-8783-EDB75394D3A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{02F4CD24-FA3E-49C9-8783-EDB75394D3A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{02F4CD24-FA3E-49C9-8783-EDB75394D3A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{02F4CD24-FA3E-49C9-8783-EDB75394D3A6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{563EB036-7F9D-4C8A-B7B0-CBD6B34870C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{563EB036-7F9D-4C8A-B7B0-CBD6B34870C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{563EB036-7F9D-4C8A-B7B0-CBD6B34870C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{563EB036-7F9D-4C8A-B7B0-CBD6B34870C1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {685E39C9-8C96-4011-A22C-2BB903135174}
+	EndGlobalSection
+EndGlobal

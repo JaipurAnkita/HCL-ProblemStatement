@@ -1,0 +1,51 @@
+﻿
+   @model HCL_Test.Models.Series
+
+<body>
+
+    @using (Html.BeginForm("Index", "Home", FormMethod.Post, new { enctype = "multipart/formdata" }))
+    {
+        <div>
+            <h4>Dynamic Series</h4>
+            <form>
+                <div class="form-group row">
+                    <label for="NumberInSeries" class="col-sm-3">NumberInSeries</label>
+
+                    <div>
+                        @Html.EditorFor(model => model.NumberInSeries, new { htmlAttributes = new { @class = "form-control" } })
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <label for="Divisor" class="col-sm-3">Divisor</label>
+
+                    <div>
+                        @Html.EditorFor(model => model.Divisor, new { htmlAttributes = new { @class = "form-control" } })
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <label for="Number" class="col-sm-3">Number</label>
+
+                    <div>
+                        @Html.EditorFor(model => model.Number, new { htmlAttributes = new { @class = "form-control" } })
+                    </div>
+                </div>
+                <button type="submit" class=".btn btn-light" value="Create">Submit</button>
+            </form>
+        </div>
+    }
+
+    <div class="form-group row">
+        <label for="DynamicSeries" class="col-sm-3">DynamicSeries</label>
+
+        <div>
+            @Html.DisplayFor(model => model.DynamicSeries, new { htmlAttributes = new { @class = "form-control" } })
+        </div>
+    </div>
+    <div class="form-group row">
+        <label for="Output" class="col-sm-3">Output</label>
+
+        <div>
+            @Html.DisplayFor(model => model.Output, new { htmlAttributes = new { @class = "form-control" } })
+        </div>
+    </div>
+</body>

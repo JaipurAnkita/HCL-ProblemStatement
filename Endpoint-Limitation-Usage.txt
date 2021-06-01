@@ -1,0 +1,13 @@
+1) Endpoint Of Solution: - 
+A)"Home/Index" to acces the controller method and getting result for the output required.
+
+2) web-based usage of your API : - There are 3 teatboxes in the api where in user has to pass number of series(quantity of numbers),
+divisor, and the Nth Number.
+If all of them are being passed then hitting the submit button will result into giving the number nth number divisible by divisor on the dynamic series
+Also it shows and prints the series.
+
+3) Limitations:-
+
+A) Api will not give print correct number after 37 number in the series.
+B)If the Nth Number divisible by Divisor not exist in the dynamic series it will show zero as result.
+
